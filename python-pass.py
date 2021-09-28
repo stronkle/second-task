@@ -14,7 +14,7 @@ class HomeWorkTwoSolution(object):
                   max_length = l
                   start = i
             else:
-               if s[i] == s[end-1] and dp[i+1][end-2]:
+               if s[i] == s[end-1] and solve[i+1][end-2]:
                   solve[i][end-1]=True
                   max_length = l
                   start = i
